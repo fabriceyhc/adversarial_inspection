@@ -1,0 +1,97 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "Anthropic--hh-rlhf",
+  "dataset_size": 325133436,
+  "description": "",
+  "download_checksums": {
+    "https://huggingface.co/datasets/Anthropic/hh-rlhf/resolve/ab92ea47d035b2f3db98d9d4b23d364c9674a561/harmless-base/train.jsonl.gz": {
+      "num_bytes": 13197306,
+      "checksum": "bf3e1ecd3db61bf21d190f69351d26670c67aababa0fd282fa008c17a7202217"
+    },
+    "https://huggingface.co/datasets/Anthropic/hh-rlhf/resolve/ab92ea47d035b2f3db98d9d4b23d364c9674a561/helpful-base/train.jsonl.gz": {
+      "num_bytes": 16200131,
+      "checksum": "518a5bf288456fc9f3b7c980c54116fba0c52f274d3f4d344675d83e4058f6f4"
+    },
+    "https://huggingface.co/datasets/Anthropic/hh-rlhf/resolve/ab92ea47d035b2f3db98d9d4b23d364c9674a561/helpful-online/train.jsonl.gz": {
+      "num_bytes": 20127228,
+      "checksum": "0994d18b82083f5c084ce04071b683958a724df8c7215ab1d851986642d36a2a"
+    },
+    "https://huggingface.co/datasets/Anthropic/hh-rlhf/resolve/ab92ea47d035b2f3db98d9d4b23d364c9674a561/helpful-rejection-sampled/train.jsonl.gz": {
+      "num_bytes": 25697148,
+      "checksum": "0cea2d2ab2187624ec1314e8cc6fb579f0fa987b3a33e8102b7556ed4d255f64"
+    },
+    "https://huggingface.co/datasets/Anthropic/hh-rlhf/resolve/ab92ea47d035b2f3db98d9d4b23d364c9674a561/harmless-base/test.jsonl.gz": {
+      "num_bytes": 742801,
+      "checksum": "ebfaaed21162a4de120ae85366075b34425e2a6303fac59b99555002f7016f03"
+    },
+    "https://huggingface.co/datasets/Anthropic/hh-rlhf/resolve/ab92ea47d035b2f3db98d9d4b23d364c9674a561/helpful-base/test.jsonl.gz": {
+      "num_bytes": 875191,
+      "checksum": "8be3fc1a13b27901631696f2be6f184c799f1baeaf145f53ac5db24960adc37b"
+    },
+    "https://huggingface.co/datasets/Anthropic/hh-rlhf/resolve/ab92ea47d035b2f3db98d9d4b23d364c9674a561/helpful-online/test.jsonl.gz": {
+      "num_bytes": 1053578,
+      "checksum": "39a475cc7e0df972902f8e3a0972726fce826ac65369bda8c671de4330c60a10"
+    },
+    "https://huggingface.co/datasets/Anthropic/hh-rlhf/resolve/ab92ea47d035b2f3db98d9d4b23d364c9674a561/helpful-rejection-sampled/test.jsonl.gz": {
+      "num_bytes": 1361231,
+      "checksum": "abc35dbc56015db1dae0faa484514ccbc3eee0133bfcd557fc69250619b028bb"
+    }
+  },
+  "download_size": 79254614,
+  "features": {
+    "context": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "chosen_response": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "reject_response": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "chosen_reward": {
+      "dtype": "float64",
+      "id": null,
+      "_type": "Value"
+    },
+    "reject_reward": {
+      "dtype": "float64",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 404388050,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 308571371,
+      "num_examples": 160800,
+      "dataset_name": "json"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 16562065,
+      "num_examples": 8552,
+      "dataset_name": "json"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "0.0.0",
+    "description": null,
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
