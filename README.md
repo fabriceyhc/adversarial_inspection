@@ -5,7 +5,7 @@
 1. Determine the frequency at which many popular adversarial attack algorithms produce **invalid** data (i.e. the "true" semantics no longer align with the label). 
 2. Determine criteria for which valid data is measured. 
 
-Possible candidates observed in existing work:
+Candidates observed in existing work:
   - __Classification__: related to model performance on the generated adversaries.
   - __Annotation__: the degree to which humans agree with the adversarial examples, plus the agreement among themselves as a function of the text quality. NOTE: many papers used inter-annotator agreement (IAA) to validate human performance, but this category only counts papers which used IAA as a direct measure of text quality (essentially a proxy for clarity). 
   - __Similarity__: how similar are the generated adversaries vs. the source texts?
